@@ -4,20 +4,19 @@
 }
 @font-face {
   font-family: fontesub;
-  src: url(font/njnaruto.ttf);
+  src: url(font/roof.ttf);
 }
 
 body {
   font-style: "Arial";
   background-color: #9f693c;
   margin: 20px 20% 20px;
-  border: 2px dotted #855c3a;
-  padding: -10px;
 }
 
 div {
     padding: 10px;
     background-color: #d6a780;
+    border: 3px dotted #855c3a;
 }
 
 h1 {
@@ -26,8 +25,8 @@ h1 {
   font-size: 30pt;
 }
 h2 {
-  font-family: fontetitulo;
-  font-size: 20pt;
+  font-family: fontesub;
+  font-size: 25pt;
 }
 p {
   text-align: justify;
@@ -46,7 +45,7 @@ strong{
 }
 
 a:link {
-  color: lightgreen;
+  color: green;
   text-decoration: underline;
   background-image: url(img/globo.png);
   background-repeat: no-repeat;
@@ -54,14 +53,13 @@ a:link {
 }
 a:visited {
   color: red;
-  text-decoration:line-through;
 }
 a:hover {
-  color: lightblue;
+  color: darkgreen;
   text-decoration: none;
 }
 a:active {
-  color: green;
+  color: lightblue;
   text-decoration: none;
 }
 
