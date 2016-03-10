@@ -9,21 +9,60 @@
 
 body {
   font-style: "Arial";
-  padding: inherit;
+  background-color: #9f693c;
+  margin: 20px 20% 20px;
+  border: 2px dotted #855c3a;
+  padding: -10px;
 }
+
+div {
+    padding: 10px;
+    background-color: #d6a780;
+}
+
 h1 {
   font-family: fontetitulo;
-  font-size: 40;
+  text-align: center;
+  font-size: 30pt;
 }
 h2 {
   font-family: fontetitulo;
-  font-size: 30;
+  font-size: 20pt;
 }
 p {
   text-align: justify;
+  text-indent: 10px;
+}
+
+.atenuado{
+  opacity: 0.5;
+}
+
+strong{
+  font-size: 25px;
+  background-color: #b27b4e;
+  padding: 8px;
+  padding-bottom: 2px;
+}
+
+a:link {
+  color: lightgreen;
+  text-decoration: underline;
+  background-image: url(img/globo.png);
+  background-repeat: no-repeat;
+  padding-left: 25px;
+}
+a:visited {
+  color: red;
+  text-decoration:line-through;
 }
 a:hover {
-
+  color: lightblue;
+  text-decoration: none;
+}
+a:active {
+  color: green;
+  text-decoration: none;
 }
 
 img.logotipo {
@@ -32,6 +71,8 @@ img.logotipo {
 }
 img {
   display: block;
+  margin-top: 20px;
+  margin-bottom: 20px;
   margin-left: auto;
   margin-right: auto;
 }
